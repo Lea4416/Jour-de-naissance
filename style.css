@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    font-size: 1em;
+}
+ol{
+    text-align: left;
+    display: inline-block;
+}
+ul{
+    text-align: left;
+    display: inline-block;
+}
+h1{
+    color: rgb(253, 0, 0);
+    text-decoration: underline;
+}
+nav{
+    background-color: rgb(132, 244, 132);
+    margin-right: 10px;
+    display: inline;
+}
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+footer{
+    font-size: 0.5em;
+}
+.imp{
+    text-decoration: underline;
+    color: green;
+}
+.photo:hover{
+    transform: rotate(360deg);
+    transition-duration: 10s;
+}
